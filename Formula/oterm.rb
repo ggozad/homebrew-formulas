@@ -1,10 +1,10 @@
 class Oterm < Formula
   include Language::Python::Virtualenv
 
-  desc "Shiny new formula"
+  desc "A text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/ed/0f/b0307339384e5c695086ea893a6a7a44f9b5e0006a65b685446cb33565dd/oterm-0.1.0.tar.gz"
-  sha256 "a2aeba4b8dd69fe7e3374c60f0bddca950063c8d988e825c536b6c4633193671"
+  url "https://files.pythonhosted.org/packages/c4/47/e9021ba19b72be914efef536efca585f63d950b66de8c9d6a4dfded4706f/oterm-0.1.1.tar.gz"
+  sha256 "4a45c69d78d42438444f1e7e7187cfd5562e7b68e9c3ec747f072c555e9e0bfd"
 
   depends_on "python3"
   depends_on "rust"
