@@ -3,11 +3,10 @@ class Oterm < Formula
 
   desc "A text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/b2/ac/07b00f9d38973cca765eac30f657f928c83786a877fddded33f939e08557/oterm-0.1.2.tar.gz"
-  sha256 "f4c9febb0381ad4dd3073b7616a2d4e0952474976c4260d0625362e02b9d3968"
+  url "https://files.pythonhosted.org/packages/bb/5e/84a0444cd02274a17a20d615e8169542099e00b3b53f9b1ebe608a4c82ac/oterm-0.1.3.tar.gz"
+  sha256 "68b7ddc0f94d3e98d66cec462151ef6241af5af06b472094bbbb2ac2e428db99"
 
   depends_on "python3"
-  depends_on "rust"
   
   resource "aiosql" do
     url "https://files.pythonhosted.org/packages/02/a9/79883a5b7a3a3d2203d47b598fc7a1f25fe983f424aae78f9ccf77599737/aiosql-9.0.tar.gz"
@@ -17,11 +16,6 @@ class Oterm < Formula
   resource "aiosqlite" do
     url "https://files.pythonhosted.org/packages/ea/51/060efa10a814145acd4e42c6e5ed540b8714cad52ca026c5930e7c473049/aiosqlite-0.19.0.tar.gz"
     sha256 "95ee77b91c8d2808bd08a59fbebf66270e9090c3d92ffbf260dc0db0b979577d"
-  end
-
-  resource "annotated-types" do
-    url "https://files.pythonhosted.org/packages/67/fe/8c7b275824c6d2cd17c93ee85d0ee81c090285b6d52f4876ccc47cf9c3c4/annotated_types-0.6.0.tar.gz"
-    sha256 "563339e807e53ffd9c267e99fc6d9ea23eb8443c08f112651963e24e22f84a5d"
   end
 
   resource "anyio" do
@@ -84,16 +78,6 @@ class Oterm < Formula
     sha256 "bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"
   end
 
-  resource "pydantic" do
-    url "https://files.pythonhosted.org/packages/df/e8/4f94ebd6972eff3babcea695d9634a4d60bea63955b9a4a413ec2fd3dd41/pydantic-2.4.2.tar.gz"
-    sha256 "94f336138093a5d7f426aac732dcfe7ab4eb4da243c88f891d65deb4a2556ee7"
-  end
-
-  resource "pydantic-core" do
-    url "https://files.pythonhosted.org/packages/af/31/8e466c6ed47cddf23013d2f2ccf3fdb5b908ffa1d5c444150c41690d6eca/pydantic_core-2.10.1.tar.gz"
-    sha256 "0f8682dbdd2f67f8e1edddcbffcc29f60a6182b4901c367fc8c1c40d30bb0a82"
-  end
-
   resource "Pygments" do
     url "https://files.pythonhosted.org/packages/d6/f7/4d461ddf9c2bcd6a4d7b2b139267ca32a69439387cc1f02a924ff8883825/Pygments-2.16.1.tar.gz"
     sha256 "1daff0494820c69bc8941e407aa20f577374ee88364ee10a98fdbe0aece96e29"
@@ -146,6 +130,5 @@ class Oterm < Formula
 
   test do
     assert_match "oterm v", shell_output("#{bin}/oterm --version")
-    false
   end
 end
