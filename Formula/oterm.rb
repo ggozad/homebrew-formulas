@@ -3,8 +3,8 @@ class Oterm < Formula
 
   desc "A text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/c4/47/e9021ba19b72be914efef536efca585f63d950b66de8c9d6a4dfded4706f/oterm-0.1.1.tar.gz"
-  sha256 "4a45c69d78d42438444f1e7e7187cfd5562e7b68e9c3ec747f072c555e9e0bfd"
+  url "https://files.pythonhosted.org/packages/b2/ac/07b00f9d38973cca765eac30f657f928c83786a877fddded33f939e08557/oterm-0.1.2.tar.gz"
+  sha256 "f4c9febb0381ad4dd3073b7616a2d4e0952474976c4260d0625362e02b9d3968"
 
   depends_on "python3"
   depends_on "rust"
@@ -145,7 +145,7 @@ class Oterm < Formula
   end
 
   test do
-    assert_match "oterm", shell_output("#{bin}/oterm --version")
+    assert_match "oterm v", shell_output("#{bin}/oterm --version")
     false
   end
 end
