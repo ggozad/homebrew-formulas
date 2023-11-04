@@ -3,8 +3,8 @@ class Oterm < Formula
 
   desc "A text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/6d/aa/4e897dd72df3831d1b375a7cb73584ea82ff1ae36b682b5796a01564f78b/oterm-0.1.7.tar.gz"
-  sha256 "c213a985c8daaeb2c3cb6378a25b419339d39fc057baaad8b29e55f4c437bfd9"
+  url "https://files.pythonhosted.org/packages/40/fa/1eda5473399a0614c04cd6ede2a99873e292f097ac37f9c222fa39d51132/oterm-0.1.9.tar.gz"
+  sha256 "17c0d15e3d460f774753590e002c83101cc011b3d0108e6626a78aa010358b31"
 
   depends_on "python3"
   
@@ -76,6 +76,11 @@ class Oterm < Formula
   resource "mdurl" do
     url "https://files.pythonhosted.org/packages/d6/54/cfe61301667036ec958cb99bd3efefba235e65cdeb9c84d24a8293ba1d90/mdurl-0.1.2.tar.gz"
     sha256 "bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"
+  end
+
+  resource "packaging" do
+    url "https://files.pythonhosted.org/packages/fb/2b/9b9c33ffed44ee921d0967086d653047286054117d584f1b1a7c22ceaf7b/packaging-23.2.tar.gz"
+    sha256 "048fb0e9405036518eaaf48a55953c750c11e1a1b68e0dd1a9d62ed0c092cfc5"
   end
 
   resource "Pygments" do
