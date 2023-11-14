@@ -3,11 +3,11 @@ class Oterm < Formula
 
   desc "A text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/40/fa/1eda5473399a0614c04cd6ede2a99873e292f097ac37f9c222fa39d51132/oterm-0.1.9.tar.gz"
-  sha256 "17c0d15e3d460f774753590e002c83101cc011b3d0108e6626a78aa010358b31"
+  url "https://files.pythonhosted.org/packages/ce/b9/325628b5d8a5293a84065286258746b8504a9bbca200de4e73dea09d9b3c/oterm-0.1.10.tar.gz"
+  sha256 "c2342cac38eac1fb195af8ef2dfdf5e6fcb3eb9e4b2f2ae1267d87224c2805d6"
 
   depends_on "python3"
-  
+
   resource "aiosql" do
     url "https://files.pythonhosted.org/packages/02/a9/79883a5b7a3a3d2203d47b598fc7a1f25fe983f424aae78f9ccf77599737/aiosql-9.0.tar.gz"
     sha256 "8bcbddebc02be488f33786b8b1c1100335ac9f03cf61530eaafed64b04fa8994"
