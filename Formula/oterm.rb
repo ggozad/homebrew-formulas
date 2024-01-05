@@ -3,15 +3,15 @@ class Oterm < Formula
 
   desc "A text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/6b/b2/379e58a8251a674f4833101625a29ca02e76f5f2d78f4334b5f78e19ddd0/oterm-0.1.17.tar.gz"
-  sha256 "5b82054b23ba236dc42f6bc8d547d338249d772cf0f6b54397a2f46713db3b9f"
+  url "https://files.pythonhosted.org/packages/70/18/76ff2c020ec438e9a06c2dbf202ab3c4a7ae62e7f6e54ac985ab5718b2e0/oterm-0.1.18.tar.gz"
+  sha256 "0e4842e67a7c4a99daa592a0b9d0ab6aebdd45ab2c550da3c4b770b06cc06f72"
 
   depends_on "python3"
   depends_on "openjpeg"
 
   resource "aiosql" do
-    url "https://files.pythonhosted.org/packages/02/a9/79883a5b7a3a3d2203d47b598fc7a1f25fe983f424aae78f9ccf77599737/aiosql-9.0.tar.gz"
-    sha256 "8bcbddebc02be488f33786b8b1c1100335ac9f03cf61530eaafed64b04fa8994"
+    url "https://files.pythonhosted.org/packages/57/01/673376de450af86dd0337bce22883e4a0b7f2d95c37af60fc01e5a4fb684/aiosql-9.2.tar.gz"
+    sha256 "2804a3027e4a3f0e92888e451731af40ae9aac03f183c07a27996a65081f2802"
   end
 
   resource "aiosqlite" do
@@ -20,8 +20,8 @@ class Oterm < Formula
   end
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/6e/57/075e07fb01ae2b740289ec9daec670f60c06f62d04b23a68077fd5d73fab/anyio-4.1.0.tar.gz"
-    sha256 "5a0bec7085176715be77df87fc66d6c9d70626bd752fcc85f57cdbee5b3760da"
+    url "https://files.pythonhosted.org/packages/2d/b8/7333d87d5f03247215d86a86362fd3e324111788c6cdd8d2e6196a6ba833/anyio-4.2.0.tar.gz"
+    sha256 "e1875bb4b4e2de1669f4bc7869b6d3f54231cdced71605e6e64c9be77e3be50f"
   end
 
   resource "certifi" do
@@ -54,11 +54,6 @@ class Oterm < Formula
     sha256 "9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca"
   end
 
-  resource "importlib-metadata" do
-    url "https://files.pythonhosted.org/packages/33/44/ae06b446b8d8263d712a211e959212083a5eda2bf36d57ca7415e03f6f36/importlib_metadata-6.8.0.tar.gz"
-    sha256 "dbace7892d8c0c4ac1ad096662232f831d4e64f4c4545bd53016a3e9d4654743"
-  end
-
   resource "linkify-it-py" do
     url "https://files.pythonhosted.org/packages/8d/fd/73bb30ec2b3cd952fe139a79a40ce5f5fd0280dd2cc1de94c93ea6a714d2/linkify-it-py-2.0.2.tar.gz"
     sha256 "19f3060727842c254c808e99d465c80c49d2c7306788140987a1a7a29b0d6ad2"
@@ -84,9 +79,9 @@ class Oterm < Formula
     sha256 "048fb0e9405036518eaaf48a55953c750c11e1a1b68e0dd1a9d62ed0c092cfc5"
   end
 
-  resource "Pillow" do
-    url "https://files.pythonhosted.org/packages/00/d5/4903f310765e0ff2b8e91ffe55031ac6af77d982f0156061e20a4d1a8b2d/Pillow-9.5.0.tar.gz"
-    sha256 "bf548479d336726d7a0eceb6e767e179fbde37833ae42794602631a070d630f1"
+  resource "pillow" do
+    url "https://files.pythonhosted.org/packages/80/d7/c4b258c9098b469c4a4e77b0a99b5f4fd21e359c2e486c977d231f52fc71/Pillow-10.1.0.tar.gz"
+    sha256 "e6bf8de6c36ed96c86ea3b6e1d5273c53f46ef518a062464cd7ef5dd2cf92e38"
   end
 
   resource "Pygments" do
@@ -110,8 +105,8 @@ class Oterm < Formula
   end
 
   resource "rich-pixels" do
-    url "https://files.pythonhosted.org/packages/78/5c/b7d1bc833dfe7a0b7b688cdd1ec261b150fc6e29f9583928c63f47206221/rich_pixels-2.1.1.tar.gz"
-    sha256 "170e6d3ef84825967f451f40f7c7deee324af630141c701cf054575f2fd34abb"
+    url "https://files.pythonhosted.org/packages/fb/22/a9b0fc18461b6e0eef5ba73db6975e429953b39f77b8e8a005caef86f4ed/rich_pixels-2.2.0.tar.gz"
+    sha256 "f2a8347b3e2a6c7da61157a0c043a5cc9109df3bd6e63edba199837da553ad14"
   end
 
   resource "sniffio" do
@@ -120,8 +115,8 @@ class Oterm < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/04/db/47913d93759a5e64802ecc7c61e1dddca1496a2c7edbf6c7b73f2f253f52/textual-0.41.0.tar.gz"
-    sha256 "73fb675a90ddded17d59ebd864dedaf82a3e7377e68ba1601581281dfd47ea86"
+    url "https://files.pythonhosted.org/packages/74/81/deb64257783485f58c5233fc4363d6ab1d6a1b249b5491bf45a366801255/textual-0.46.0.tar.gz"
+    sha256 "66d30f07d082ee5083ea898103e70b8720a98658e0bd3153fbb934a437ffe6f5"
   end
 
   resource "typer" do
@@ -130,18 +125,13 @@ class Oterm < Formula
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/1f/7a/8b94bb016069caa12fc9f587b28080ac33b4fbb8ca369b98bc0a4828543e/typing_extensions-4.8.0.tar.gz"
-    sha256 "df8e4339e9cb77357558cbdbceca33c303714cf861d1eef15e1070055ae8b7ef"
+    url "https://files.pythonhosted.org/packages/0c/1d/eb26f5e75100d531d7399ae800814b069bc2ed2a7410834d57374d010d96/typing_extensions-4.9.0.tar.gz"
+    sha256 "23478f88c37f27d76ac8aee6c905017a143b0b1b886c3c9f66bc2fd94f9f5783"
   end
 
   resource "uc-micro-py" do
     url "https://files.pythonhosted.org/packages/75/db/241444fe6df6970a4c18d227193cad77fab7cec55d98e296099147de017f/uc-micro-py-1.0.2.tar.gz"
     sha256 "30ae2ac9c49f39ac6dce743bd187fcd2b574b16ca095fa74cd9396795c954c54"
-  end
-
-  resource "zipp" do
-    url "https://files.pythonhosted.org/packages/58/03/dd5ccf4e06dec9537ecba8fcc67bbd4ea48a2791773e469e73f94c3ba9a6/zipp-3.17.0.tar.gz"
-    sha256 "84e64a1c28cf7e91ed2078bb8cc8c259cb19b76942096c8d7b84947690cabaf0"
   end
 
   def install
