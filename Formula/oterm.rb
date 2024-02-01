@@ -3,8 +3,8 @@ class Oterm < Formula
 
   desc "A text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/62/8a/5b29162e4b8d1fd4f8c7eb3388b86e1ddaf5c6550ce66cb88078fb677f43/oterm-0.1.21.tar.gz"
-  sha256 "529fbe8b276db53c17fb41698482628d357c3b111b3d783b3f287dbb1bda3b4c"
+  url "https://files.pythonhosted.org/packages/1f/49/ca320f7925bce2e866937f4059bacc0982ac6b2c6cf5e2a6760bc78ef83a/oterm-0.1.22.tar.gz"
+  sha256 "a30aa67340c9b515476504669b686583ccfa8e96d4a85ec4dcbc5ea50aa74017"
 
   depends_on "python3"
   depends_on "openjpeg"
