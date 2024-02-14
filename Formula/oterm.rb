@@ -3,8 +3,8 @@ class Oterm < Formula
 
   desc "A text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/1f/49/ca320f7925bce2e866937f4059bacc0982ac6b2c6cf5e2a6760bc78ef83a/oterm-0.1.22.tar.gz"
-  sha256 "a30aa67340c9b515476504669b686583ccfa8e96d4a85ec4dcbc5ea50aa74017"
+  url "https://files.pythonhosted.org/packages/df/a5/2c5b3eaf7077e912ef9f9339c254f915260ce7f92a599f09acee8cde765f/oterm-0.2.0.tar.gz"
+  sha256 "1132cf84043f975fa9891a392d7b55d82410a4e3cd0840fe47314a05f02082cd"
 
   depends_on "python3"
   depends_on "openjpeg"
@@ -13,8 +13,8 @@ class Oterm < Formula
   depends_on "zlib"
 
   resource "aiohttp" do
-    url "https://files.pythonhosted.org/packages/54/07/9467d3f8dae29b14f423b414d9e67512a76743c5bb7686fb05fe10c9cc3e/aiohttp-3.9.1.tar.gz"
-    sha256 "8fc49a87ac269d4529da45871e2ffb6874e87779c3d0e2ccd813c0899221239d"
+    url "https://files.pythonhosted.org/packages/18/93/1f005bbe044471a0444a82cdd7356f5120b9cf94fe2c50c0cdbf28f1258b/aiohttp-3.9.3.tar.gz"
+    sha256 "90842933e5d1ff760fae6caca4b2b3edba53ba8f4b71e95dacf2818a2aca06f7"
   end
 
   resource "aiosignal" do
@@ -143,8 +143,8 @@ class Oterm < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/24/51/57eb835afc9569d32b5979ecbf3bf73f8ece8700ebffab3bac7ff29f92e4/textual-0.47.1.tar.gz"
-    sha256 "4b82e317884bb1092f693f474c319ceb068b5a0b128b121f1aa53a2d48b4b80c"
+    url "https://files.pythonhosted.org/packages/73/9d/865d5d60512c2483d4d207e46b6b106749a63bb7bad0fdc8ecf2909bb59f/textual-0.50.1.tar.gz"
+    sha256 "415bef44b2dfa702d17ebb08637c0141eb54767cfbeafe60d07e62104183b56a"
   end
 
   resource "typer" do
@@ -166,7 +166,6 @@ class Oterm < Formula
     url "https://files.pythonhosted.org/packages/e0/ad/bedcdccbcbf91363fd425a948994f3340924145c2bc8ccb296f4a1e52c28/yarl-1.9.4.tar.gz"
     sha256 "566db86717cf8080b99b58b083b773a908ae40f06681e87e589a976faf8246bf"
   end
-
   def install
     virtualenv_create(libexec, "python3")
     virtualenv_install_with_resources
