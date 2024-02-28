@@ -1,15 +1,16 @@
 class Oterm < Formula
   include Language::Python::Virtualenv
 
-  desc "A text-based terminal client for Ollama"
+  desc "Text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
   url "https://files.pythonhosted.org/packages/1a/aa/a7b030847a5a8d10d0311c4d9c6d29e1cb122bdb7021f1a46a3b783a0911/oterm-0.2.3.tar.gz"
   sha256 "37eab2a2185e1cf6df9ebeda67e09e52844a32bf4c8b1cc37e9862e3b59659b4"
+  license "MIT"
 
-  depends_on "python3"
   depends_on "openjpeg"
   depends_on "pkg-config"
   depends_on "jpeg-turbo"
+  depends_on "python3"
   depends_on "zlib"
 
   resource "aiohttp" do
