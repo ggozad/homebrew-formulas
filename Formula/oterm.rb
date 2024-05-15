@@ -3,8 +3,8 @@ class Oterm < Formula
 
   desc "Text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/e7/b1/f224886e5d51438c179b6dbff57fb55f11d534d1c4dd5be854b7c47078a2/oterm-0.2.8.tar.gz"
-  sha256 "6f1675bbffcd8cdfdd3f93745987a132f7e2692276a5b9482e790d0b150b017c"
+  url "https://files.pythonhosted.org/packages/97/7f/bf9430168b48c573a2c5545aa2a8e8b65ea91740495ad50afbc7b5e718e4/oterm-0.2.9.tar.gz"
+  sha256 "776aa5c87ce09e2c5ef3384e13e3ef31a9fa22a2b8a1b15e3a2ef5a89bb0bf67"
   license "MIT"
 
   depends_on "jpeg-turbo"
@@ -49,8 +49,8 @@ class Oterm < Formula
   end
 
   resource "httpx" do
-    url "https://files.pythonhosted.org/packages/8c/23/911d93a022979d3ea295f659fbe7edb07b3f4561a477e83b3a6d0e0c914e/httpx-0.25.2.tar.gz"
-    sha256 "8b8fcaa0c8ea7b05edd69a094e63a2094c4efcb48129fb757361bc423c0ad9e8"
+    url "https://files.pythonhosted.org/packages/5c/2d/3da5bdf4408b8b2800061c339f240c1802f2e82d55e50bd39c5a881f47f0/httpx-0.27.0.tar.gz"
+    sha256 "a0cb88a46f32dc874e04ee956e4c2764aba2aa228f650b06788ba6bda2962ab5"
   end
 
   resource "idna" do
@@ -79,8 +79,8 @@ class Oterm < Formula
   end
 
   resource "ollama" do
-    url "https://files.pythonhosted.org/packages/b1/26/14434e5825083e7895b6d8d00c20037785330ec8cf4393c837147ed8447c/ollama-0.1.7.tar.gz"
-    sha256 "c471286a2bbe9dc9986428831c67a3a6c27e7fb5e3df55f41c1e28b8d00a80a7"
+    url "https://files.pythonhosted.org/packages/56/00/c50ccd4de9ad49e3b7a0be716b3bbdb3ceb2091d4279ab4779eb6a9baaa9/ollama-0.2.0.tar.gz"
+    sha256 "de056cada2a92433195102da2b8ff50f66335b138eff5d277765c8adf79983f0"
   end
 
   resource "packaging" do
@@ -89,8 +89,8 @@ class Oterm < Formula
   end
 
   resource "pillow" do
-    url "https://files.pythonhosted.org/packages/f8/3e/32cbd0129a28686621434cbf17bb64bf1458bfb838f1f668262fefce145c/pillow-10.2.0.tar.gz"
-    sha256 "e87f0b2c78157e12d7686b27d63c070fd65d994e8ddae6f328e0dcf4a0cd007e"
+    url "https://files.pythonhosted.org/packages/ef/43/c50c17c5f7d438e836c169e343695534c38c77f60e7c90389bd77981bc21/pillow-10.3.0.tar.gz"
+    sha256 "9d2455fbf44c914840c793e89aa82d0e1763a14253a000743719ae5946814b2d"
   end
 
   resource "Pygments" do
@@ -114,8 +114,13 @@ class Oterm < Formula
   end
 
   resource "rich-pixels" do
-    url "https://files.pythonhosted.org/packages/fb/22/a9b0fc18461b6e0eef5ba73db6975e429953b39f77b8e8a005caef86f4ed/rich_pixels-2.2.0.tar.gz"
-    sha256 "f2a8347b3e2a6c7da61157a0c043a5cc9109df3bd6e63edba199837da553ad14"
+    url "https://files.pythonhosted.org/packages/31/71/6d5cd4b8d67cd49366eda19aaf37f20094ce562223a91166109202590237/rich_pixels-3.0.1.tar.gz"
+    sha256 "4a81977d45437ce5009cdcaf70af80256c3bdfab870e87ab802c577ba4133235"
+  end
+
+  resource "shellingham" do
+    url "https://files.pythonhosted.org/packages/58/15/8b3609fd3830ef7b27b655beb4b4e9c62313a4e8da8c676e142cc210d58e/shellingham-1.5.4.tar.gz"
+    sha256 "8dbca0739d487e5bd35ab3ca4b36e11c4078f3a234bfce294b0a0291363404de"
   end
 
   resource "sniffio" do
@@ -124,13 +129,13 @@ class Oterm < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/59/f4/3df30a59ae3fe915c4311a93646fc184be19999e6e5d828831d4cfe53851/textual-0.53.1.tar.gz"
-    sha256 "23ba673be7974819ded35ea88d28df7117987e53d58f15b2cc890ac2ecf56401"
+    url "https://files.pythonhosted.org/packages/85/4f/69169ee8b8071887ca906c179fc6d68cf45c75ee2c7233c29e5090b8c815/textual-0.59.0.tar.gz"
+    sha256 "0fb0001ed393a9eb2c6c8598a5436cde588658a9726b5e099ae3bfb6f3ac257d"
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/5b/49/39f10d0f75886439ab3dac889f14f8ad511982a754e382c9b6ca895b29e9/typer-0.9.0.tar.gz"
-    sha256 "50922fd79aea2f4751a8e0408ff10d2662bd0c8bbfa84755a699f3bada2978b2"
+    url "https://files.pythonhosted.org/packages/ac/0a/d55af35db5f50f486e3eda0ada747eed773859e2699d3ce570b682a9b70a/typer-0.12.3.tar.gz"
+    sha256 "49e73131481d804288ef62598d97a1ceef3058905aa536a1134f90891ba35482"
   end
 
   resource "typing-extensions" do
