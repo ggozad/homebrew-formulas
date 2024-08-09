@@ -3,8 +3,8 @@ class Oterm < Formula
 
   desc "Text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/97/7f/bf9430168b48c573a2c5545aa2a8e8b65ea91740495ad50afbc7b5e718e4/oterm-0.2.9.tar.gz"
-  sha256 "776aa5c87ce09e2c5ef3384e13e3ef31a9fa22a2b8a1b15e3a2ef5a89bb0bf67"
+  url "https://files.pythonhosted.org/packages/b0/1e/da0b648bf69b3a2935a9786b4438886965866474b9219be876e8eca92036/oterm-0.2.10.tar.gz"
+  sha256 "b4157293bfd238eac3bcd01ed6ad006a8bda37df8278db0f2f83008919d3835f"
   license "MIT"
 
   depends_on "jpeg-turbo"
@@ -14,8 +14,8 @@ class Oterm < Formula
   depends_on "zlib"
 
   resource "aiosql" do
-    url "https://files.pythonhosted.org/packages/81/84/bd924b5c0b61b5e1024fccd02dab38745c12a1e093437883dbedfd313c61/aiosql-10.1.tar.gz"
-    sha256 "fe6d321aca2c723b3f26cdd6e9d1f1c0845b7e073a84f2333051ad2ec80cb748"
+    url "https://files.pythonhosted.org/packages/bc/09/cb2b1bc2505fa135d0cf88ea5bdeb56300ad867b222ca8c3b49d25c991d9/aiosql-10.4.tar.gz"
+    sha256 "e75e9e95587de0332f232c160752aaaf1e937047d05a65760d878e0fabae38aa"
   end
 
   resource "aiosqlite" do
@@ -79,8 +79,8 @@ class Oterm < Formula
   end
 
   resource "ollama" do
-    url "https://files.pythonhosted.org/packages/56/00/c50ccd4de9ad49e3b7a0be716b3bbdb3ceb2091d4279ab4779eb6a9baaa9/ollama-0.2.0.tar.gz"
-    sha256 "de056cada2a92433195102da2b8ff50f66335b138eff5d277765c8adf79983f0"
+    url "https://files.pythonhosted.org/packages/d7/4e/fc7ad9232c251b4885b1bf2e0f9ce35882e0f167a6ce7d3d15473dc07e7d/ollama-0.3.1.tar.gz"
+    sha256 "032572fb494a4fba200c65013fe937a65382c846b5f358d9e8918ecbc9ac44b5"
   end
 
   resource "packaging" do
@@ -89,8 +89,8 @@ class Oterm < Formula
   end
 
   resource "pillow" do
-    url "https://files.pythonhosted.org/packages/ef/43/c50c17c5f7d438e836c169e343695534c38c77f60e7c90389bd77981bc21/pillow-10.3.0.tar.gz"
-    sha256 "9d2455fbf44c914840c793e89aa82d0e1763a14253a000743719ae5946814b2d"
+    url "https://files.pythonhosted.org/packages/cd/74/ad3d526f3bf7b6d3f408b73fde271ec69dfac8b81341a318ce825f2b3812/pillow-10.4.0.tar.gz"
+    sha256 "166c1cd4d24309b30d61f79f4a9114b7b2313d7450912277855ff5dfd7cd4a06"
   end
 
   resource "Pygments" do
@@ -99,8 +99,8 @@ class Oterm < Formula
   end
 
   resource "pyperclip" do
-    url "https://files.pythonhosted.org/packages/a7/2c/4c64579f847bd5d539803c8b909e54ba087a79d01bb3aba433a95879a6c5/pyperclip-1.8.2.tar.gz"
-    sha256 "105254a8b04934f0bc84e9c24eb360a591aaf6535c9def5f29d92af107a9bf57"
+    url "https://files.pythonhosted.org/packages/30/23/2f0a3efc4d6a32f3b63cdff36cd398d9701d26cda58e3ab97ac79fb5e60d/pyperclip-1.9.0.tar.gz"
+    sha256 "b7de0142ddc81bfc5c7507eea19da920b92252b548b96186caf94a5e2527d310"
   end
 
   resource "python-dotenv" do
@@ -129,8 +129,8 @@ class Oterm < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/85/4f/69169ee8b8071887ca906c179fc6d68cf45c75ee2c7233c29e5090b8c815/textual-0.59.0.tar.gz"
-    sha256 "0fb0001ed393a9eb2c6c8598a5436cde588658a9726b5e099ae3bfb6f3ac257d"
+    url "https://files.pythonhosted.org/packages/d0/ea/9139a6156c6dc2f40592fc50dceb8c57c5e53d235c20c2c41fe3cc363b1f/textual-0.76.0.tar.gz"
+    sha256 "b12e8879d591090c0901b5cb8121d086e28e677353b368292d3865ec99b83b70"
   end
 
   resource "typer" do
