@@ -3,8 +3,8 @@ class Oterm < Formula
 
   desc "Text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/ab/84/abb2ed62b8f0fc79978f7b07fa8921fa1326516194ee83e878add13fafb3/oterm-0.3.0.tar.gz"
-  sha256 "52bfd6384ceffac5b25b9ef5024919c4b209b882a2d9c45197c0bccf56e04047"
+  url "https://files.pythonhosted.org/packages/b0/1e/da0b648bf69b3a2935a9786b4438886965866474b9219be876e8eca92036/oterm-0.2.10.tar.gz"
+  sha256 "b4157293bfd238eac3bcd01ed6ad006a8bda37df8278db0f2f83008919d3835f"
   license "MIT"
 
   depends_on "jpeg-turbo"
@@ -131,16 +131,6 @@ class Oterm < Formula
   resource "textual" do
     url "https://files.pythonhosted.org/packages/d0/ea/9139a6156c6dc2f40592fc50dceb8c57c5e53d235c20c2c41fe3cc363b1f/textual-0.76.0.tar.gz"
     sha256 "b12e8879d591090c0901b5cb8121d086e28e677353b368292d3865ec99b83b70"
-  end
-
-  resource "tree-sitter" do
-    url "https://files.pythonhosted.org/packages/4a/64/71b3a0ff7d0d89cb333caeca01992099c165bdd663e7990ea723615e60f4/tree_sitter-0.20.4.tar.gz"
-    sha256 "6adb123e2f3e56399bbf2359924633c882cc40ee8344885200bca0922f713be5"
-  end
-
-  resource "tree-sitter-languages" do
-    url ""
-    sha256 ""
   end
 
   resource "typer" do
