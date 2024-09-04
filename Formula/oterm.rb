@@ -3,8 +3,8 @@ class Oterm < Formula
 
   desc "Text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/97/d5/6e74f94bbadd6c7eb4acfe2823900fb67db5cccb23fb5c71885aad968d86/oterm-0.4.2.tar.gz"
-  sha256 "d24f19afba1e0c09aee0fb94cf39ea60b1ff31f8048ce33252d80a77b88778b3"
+  url "https://files.pythonhosted.org/packages/4f/71/9b2ac8428578cb732963c74e1f9ff4bea53f11f2da3c236b100c66616306/oterm-0.5.0.tar.gz"
+  sha256 "3e8e821c557d9ebffab044f0ca03e73a4b4a5f29def98766812e3bcb9874a94e"
   license "MIT"
 
   depends_on "jpeg-turbo"
@@ -14,8 +14,8 @@ class Oterm < Formula
   depends_on "zlib"
 
   resource "aiosql" do
-    url "https://files.pythonhosted.org/packages/bc/09/cb2b1bc2505fa135d0cf88ea5bdeb56300ad867b222ca8c3b49d25c991d9/aiosql-10.4.tar.gz"
-    sha256 "e75e9e95587de0332f232c160752aaaf1e937047d05a65760d878e0fabae38aa"
+    url "https://files.pythonhosted.org/packages/36/4f/89d0b151450822c2275cf0695715fd2515ee69f9c483cda803723cf52d51/aiosql-11.1.tar.gz"
+    sha256 "518e1fc7220087efc0b81098676495adb99de309eacd384003a78361dc187202"
   end
 
   resource "aiosqlite" do
@@ -129,13 +129,13 @@ class Oterm < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/d0/ea/9139a6156c6dc2f40592fc50dceb8c57c5e53d235c20c2c41fe3cc363b1f/textual-0.76.0.tar.gz"
-    sha256 "b12e8879d591090c0901b5cb8121d086e28e677353b368292d3865ec99b83b70"
+    url "https://files.pythonhosted.org/packages/9c/65/0feb87888b582d4d6cd8ab5cf23f36e711894db33d91a4282311c05fc870/textual-0.78.0.tar.gz"
+    sha256 "421f508b0d41ea0b8ecf273bf83f0d19376667eb0a87f70575252395d90ab315"
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/ac/0a/d55af35db5f50f486e3eda0ada747eed773859e2699d3ce570b682a9b70a/typer-0.12.3.tar.gz"
-    sha256 "49e73131481d804288ef62598d97a1ceef3058905aa536a1134f90891ba35482"
+    url "https://files.pythonhosted.org/packages/d4/f7/f174a1cae84848ae8b27170a96187b91937b743f0580ff968078fe16930a/typer-0.12.4.tar.gz"
+    sha256 "c9c1613ed6a166162705b3347b8d10b661ccc5d95692654d0fb628118f2c34e6"
   end
 
   resource "typing-extensions" do
