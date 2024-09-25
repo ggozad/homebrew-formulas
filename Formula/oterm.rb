@@ -3,8 +3,8 @@ class Oterm < Formula
 
   desc "Text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/34/3a/99c40e3b665e0261d2ee3d20f313e7f2667dc9cf51711bc779204115dacf/oterm-0.6.1.tar.gz"
-  sha256 "a352d37f66c7a1105d8f6fc04cfb75f849ddc41fd19754a0ae8e8853f986a2da"
+  url "https://files.pythonhosted.org/packages/48/8f/fe597cbb38ccfe14834bb0000eccfd07f778e532e9b92d687e542e309de5/oterm-0.6.2.tar.gz"
+  sha256 "30176cef54cc22fc9badba421de50194360b37a0118a626783a16818cd09c466"
   license "MIT"
 
   depends_on "jpeg-turbo"
@@ -14,8 +14,8 @@ class Oterm < Formula
   depends_on "zlib"
 
   resource "aiosql" do
-    url "https://files.pythonhosted.org/packages/36/4f/89d0b151450822c2275cf0695715fd2515ee69f9c483cda803723cf52d51/aiosql-11.1.tar.gz"
-    sha256 "518e1fc7220087efc0b81098676495adb99de309eacd384003a78361dc187202"
+    url "https://files.pythonhosted.org/packages/61/5c/ea19edeff0d4134fe95bb9c61623ac2e0d2370895bf7b3b404697036361d/aiosql-12.0.tar.gz"
+    sha256 "fe13a55abe12ef42be7a6a876a02610a941e597fddbc3ea8f8828a854e945df6"
   end
 
   resource "aiosqlite" do
@@ -24,13 +24,13 @@ class Oterm < Formula
   end
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/e6/e3/c4c8d473d6780ef1853d630d581f70d655b4f8d7553c6997958c283039a2/anyio-4.4.0.tar.gz"
-    sha256 "5aadc6a1bbb7cdb0bede386cac5e2940f5e2ff3aa20277e991cf028e0585ce94"
+    url "https://files.pythonhosted.org/packages/78/49/f3f17ec11c4a91fe79275c426658e509b07547f874b14c1a526d86a83fc8/anyio-4.6.0.tar.gz"
+    sha256 "137b4559cbb034c477165047febb6ff83f390fc3b20bf181c1fc0a728cb8beeb"
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/c2/02/a95f2b11e207f68bc64d7aae9666fed2e2b3f307748d5123dffb72a1bbea/certifi-2024.7.4.tar.gz"
-    sha256 "5a1e7645bc0ec61a09e26c36f6106dd4cf40c6db3a1fb6352b0244e7fb057c7b"
+    url "https://files.pythonhosted.org/packages/b0/ee/9b19140fe824b367c04c5e1b369942dd754c4c5462d5674002f75c4dedc1/certifi-2024.8.30.tar.gz"
+    sha256 "bec941d2aa8195e248a60b31ff9f0558284cf01a52591ceda73ea9afffd69fd9"
   end
 
   resource "click" do
@@ -49,13 +49,13 @@ class Oterm < Formula
   end
 
   resource "httpx" do
-    url "https://files.pythonhosted.org/packages/5c/2d/3da5bdf4408b8b2800061c339f240c1802f2e82d55e50bd39c5a881f47f0/httpx-0.27.0.tar.gz"
-    sha256 "a0cb88a46f32dc874e04ee956e4c2764aba2aa228f650b06788ba6bda2962ab5"
+    url "https://files.pythonhosted.org/packages/78/82/08f8c936781f67d9e6b9eeb8a0c8b4e406136ea4c3d1f89a5db71d42e0e6/httpx-0.27.2.tar.gz"
+    sha256 "f7c2be1d2f3c3c3160d441802406b206c2b76f5947b11115e6df10c6c65e66c2"
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/21/ed/f86a79a07470cb07819390452f178b3bef1d375f2ec021ecfc709fc7cf07/idna-3.7.tar.gz"
-    sha256 "028ff3aadf0609c1fd278d8ea3089299412a7a8b9bd005dd08b9f8285bcb5cfc"
+    url "https://files.pythonhosted.org/packages/f1/70/7703c29685631f5a7590aa73f1f1d3fa9a380e654b86af429e0934a32f7d/idna-3.10.tar.gz"
+    sha256 "12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9"
   end
 
   resource "linkify-it-py" do
@@ -69,8 +69,8 @@ class Oterm < Formula
   end
 
   resource "mdit-py-plugins" do
-    url "https://files.pythonhosted.org/packages/00/6c/79c52651b22b64dba5c7bbabd7a294cc410bfb2353250dc8ade44d7d8ad8/mdit_py_plugins-0.4.1.tar.gz"
-    sha256 "834b8ac23d1cd60cec703646ffd22ae97b7955a6d596eb1d304be1e251ae499c"
+    url "https://files.pythonhosted.org/packages/19/03/a2ecab526543b152300717cf232bb4bb8605b6edb946c845016fa9c9c9fd/mdit_py_plugins-0.4.2.tar.gz"
+    sha256 "5f2cd1fdb606ddf152d37ec30e46101a60512bc0e5fa1a7002c36647b09e26b5"
   end
 
   resource "mdurl" do
@@ -79,8 +79,8 @@ class Oterm < Formula
   end
 
   resource "ollama" do
-    url "https://files.pythonhosted.org/packages/d7/4e/fc7ad9232c251b4885b1bf2e0f9ce35882e0f167a6ce7d3d15473dc07e7d/ollama-0.3.1.tar.gz"
-    sha256 "032572fb494a4fba200c65013fe937a65382c846b5f358d9e8918ecbc9ac44b5"
+    url "https://files.pythonhosted.org/packages/a6/8e/60a9b065eb796ef3996451cbe2d8044f6b030696166693b9805ae33b8b4c/ollama-0.3.3.tar.gz"
+    sha256 "f90a6d61803117f40b0e8ff17465cab5e1eb24758a473cfe8101aff38bc13b51"
   end
 
   resource "packaging" do
@@ -91,6 +91,11 @@ class Oterm < Formula
   resource "pillow" do
     url "https://files.pythonhosted.org/packages/cd/74/ad3d526f3bf7b6d3f408b73fde271ec69dfac8b81341a318ce825f2b3812/pillow-10.4.0.tar.gz"
     sha256 "166c1cd4d24309b30d61f79f4a9114b7b2313d7450912277855ff5dfd7cd4a06"
+  end
+
+  resource "platformdirs" do
+    url "https://files.pythonhosted.org/packages/13/fc/128cc9cb8f03208bdbf93d3aa862e16d376844a14f9a0ce5cf4507372de4/platformdirs-4.3.6.tar.gz"
+    sha256 "357fb2acbc885b0419afd3ce3ed34564c13c9b95c89360cd9563f73aa5e2b907"
   end
 
   resource "Pygments" do
@@ -109,8 +114,8 @@ class Oterm < Formula
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/b3/01/c954e134dc440ab5f96952fe52b4fdc64225530320a910473c1fe270d9aa/rich-13.7.1.tar.gz"
-    sha256 "9be308cb1fe2f1f57d67ce99e95af38a1e2bc71ad9813b0e247cf7ffbcc3a432"
+    url "https://files.pythonhosted.org/packages/92/76/40f084cb7db51c9d1fa29a7120717892aeda9a7711f6225692c957a93535/rich-13.8.1.tar.gz"
+    sha256 "8260cda28e3db6bf04d2d1ef4dbc03ba80a824c88b0e7668a0f23126a424844a"
   end
 
   resource "rich-pixels" do
@@ -128,14 +133,24 @@ class Oterm < Formula
     sha256 "f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc"
   end
 
+  resource "terminaltexteffects" do
+    url "https://files.pythonhosted.org/packages/10/d1/34a5a22265fe74b11ba21c733479d9c1572004b4c0b38b45deda4d3abdf3/terminaltexteffects-0.11.0.tar.gz"
+    sha256 "1430cb73ba003a04a96b19ae4ba5b37a3faf10eb92c77593da7b697e8113dcb2"
+  end
+
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/9c/65/0feb87888b582d4d6cd8ab5cf23f36e711894db33d91a4282311c05fc870/textual-0.78.0.tar.gz"
-    sha256 "421f508b0d41ea0b8ecf273bf83f0d19376667eb0a87f70575252395d90ab315"
+    url "https://files.pythonhosted.org/packages/55/5a/ad3b8884f1833484f4e97e9d22b400df89c43106f6ab140b85f0fa97d48b/textual-0.80.1.tar.gz"
+    sha256 "66b9f89144ec35d74e29b2157d5a946c49c6b024634621d15b68c69cb51c76a0"
+  end
+
+  resource "textualeffects" do
+    url "https://files.pythonhosted.org/packages/89/ab/4f713c2258a056d6e94fe4896b8382ec9952a963898a6fc39e1020580278/textualeffects-0.1.2.tar.gz"
+    sha256 "040709d887a9e86860401e0f57429d231a5598e8c176089c99315ab99af1b229"
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/d4/f7/f174a1cae84848ae8b27170a96187b91937b743f0580ff968078fe16930a/typer-0.12.4.tar.gz"
-    sha256 "c9c1613ed6a166162705b3347b8d10b661ccc5d95692654d0fb628118f2c34e6"
+    url "https://files.pythonhosted.org/packages/c5/58/a79003b91ac2c6890fc5d90145c662fd5771c6f11447f116b63300436bc9/typer-0.12.5.tar.gz"
+    sha256 "f592f089bedcc8ec1b974125d64851029c3b1af145f04aca64d69410f0c9b722"
   end
 
   resource "typing-extensions" do
