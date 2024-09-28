@@ -3,8 +3,8 @@ class Oterm < Formula
 
   desc "Text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/5f/f6/f4408f3fa9d254f1e9ea6568d4385b8b1450f0bc463d2c92dcab77617db8/oterm-0.6.3.tar.gz"
-  sha256 "3f9641847b50f381693d77dbe88412526ce4ace05e72f58f53f625a85d6a6a00"
+  url "https://files.pythonhosted.org/packages/06/5b/f86d5409843f46853b2ee06b90cd367130b70df1d54ff86eec7707544890/oterm-0.6.4.tar.gz"
+  sha256 "a5e305bbb21c66a90a702e0bdc056055d407da031f2aaede5de525c21fcc50dd"
   license "MIT"
 
   depends_on "jpeg-turbo"
@@ -139,13 +139,13 @@ class Oterm < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/55/5a/ad3b8884f1833484f4e97e9d22b400df89c43106f6ab140b85f0fa97d48b/textual-0.80.1.tar.gz"
-    sha256 "66b9f89144ec35d74e29b2157d5a946c49c6b024634621d15b68c69cb51c76a0"
+    url "https://files.pythonhosted.org/packages/2c/f0/b530868b21d68fd27a8a68f7511ef8573e0d63b359004c50da7b36b6c7b7/textual-0.81.0.tar.gz"
+    sha256 "b438f7e6bb143fdec379170ccc6709a32d273bd998e70179537109263de7c818"
   end
 
   resource "textualeffects" do
-    url "https://files.pythonhosted.org/packages/89/ab/4f713c2258a056d6e94fe4896b8382ec9952a963898a6fc39e1020580278/textualeffects-0.1.2.tar.gz"
-    sha256 "040709d887a9e86860401e0f57429d231a5598e8c176089c99315ab99af1b229"
+    url "https://files.pythonhosted.org/packages/4b/a5/d0d329676ef7bdcb9ebed6aa97055809655c4f15712239950615d1a77c64/textualeffects-0.1.3.tar.gz"
+    sha256 "b3a2ebb0226efee6c321742ac50958d8755bcc373df85b5413da014ae954b26f"
   end
 
   resource "typer" do
