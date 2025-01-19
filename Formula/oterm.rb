@@ -3,8 +3,8 @@ class Oterm < Formula
 
   desc "Text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/1b/00/eaa558e484804085ff23d7b88f9dcc1675412537f3bccc9be16e6cf4d9d0/oterm-0.7.3.tar.gz"
-  sha256 "6f32a8d6d3be9466ec80ea3b27cf117b3015abb1ce95e5a8656c1c9687fa45dd"  
+  url "https://files.pythonhosted.org/packages/9b/23/ca57a5bdc3d117c778cea397df9a41598926ee42b49b0725d7ccbb1512aa/oterm-0.8.0.tar.gz"
+  sha256 "fb5cfe3d157d8faa427d42471f3384ae7ef564df0ab15cbc0670db9a22f6773a"
   license "MIT"
 
   depends_on "jpeg-turbo"
@@ -90,6 +90,11 @@ class Oterm < Formula
     sha256 "f7c2be1d2f3c3c3160d441802406b206c2b76f5947b11115e6df10c6c65e66c2"
   end
 
+  resource "httpx-sse" do
+    url "https://files.pythonhosted.org/packages/4c/60/8f4281fa9bbf3c8034fd54c0e7412e66edbab6bc74c4996bd616f8d0406e/httpx-sse-0.4.0.tar.gz"
+    sha256 "1e81a3a3070ce322add1d3529ed42eb5f70817f45ed6ec915ab753f961139721"
+  end
+
   resource "idna" do
     url "https://files.pythonhosted.org/packages/f1/70/7703c29685631f5a7590aa73f1f1d3fa9a380e654b86af429e0934a32f7d/idna-3.10.tar.gz"
     sha256 "12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9"
@@ -113,6 +118,11 @@ class Oterm < Formula
   resource "MarkupSafe" do
     url "https://files.pythonhosted.org/packages/b2/97/5d42485e71dfc078108a86d6de8fa46db44a1a9295e89c5d6d4a06e23a62/markupsafe-3.0.2.tar.gz"
     sha256 "ee55d3edf80167e48ea11a923c7386f4669df67d7994554387f84e7d8b0a2bf0"
+  end
+
+  resource "mcp" do
+    url "https://files.pythonhosted.org/packages/ab/a5/b08dc846ebedae9f17ced878e6975826e90e448cd4592f532f6a88a925a7/mcp-1.2.0.tar.gz"
+    sha256 "2b06c7ece98d6ea9e6379caa38d74b432385c338fb530cb82e2c70ea7add94f5"
   end
 
   resource "mdit-py-plugins" do
@@ -170,6 +180,11 @@ class Oterm < Formula
     sha256 "62a763352879b84aa31058fc931884055fd75089cccbd9d58bb6afd01141b235"
   end
 
+  resource "pydantic-settings" do
+    url "https://files.pythonhosted.org/packages/73/7b/c58a586cd7d9ac66d2ee4ba60ca2d241fa837c02bca9bea80a9a8c3d22a9/pydantic_settings-2.7.1.tar.gz"
+    sha256 "10c9caad35e64bfb3c2fbf70a078c0e25cc92499782e5200747f942a065dec93"
+  end
+
   resource "Pygments" do
     url "https://files.pythonhosted.org/packages/8e/62/8336eff65bcbc8e4cb5d05b55faf041285951b6e80f33e2bff2024788f31/pygments-2.18.0.tar.gz"
     sha256 "786ff802f32e91311bff3889f6e9a86e81505fe99f2735bb6d60ae0c5004f199"
@@ -203,6 +218,16 @@ class Oterm < Formula
   resource "sniffio" do
     url "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e041b6ae58d80074f81b7d5121207425c964ddf5cfdbd/sniffio-1.3.1.tar.gz"
     sha256 "f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc"
+  end
+
+  resource "sse-starlette" do
+    url "https://files.pythonhosted.org/packages/72/fc/56ab9f116b2133521f532fce8d03194cf04dcac25f583cf3d839be4c0496/sse_starlette-2.1.3.tar.gz"
+    sha256 "9cd27eb35319e1414e3d2558ee7414487f9529ce3b3cf9b21434fd110e017169"
+  end
+
+  resource "starlette" do
+    url "https://files.pythonhosted.org/packages/90/4f/e1c9f4ec3dae67a94c9285ed275355d5f7cf0f3a5c34538c8ae5412af550/starlette-0.45.2.tar.gz"
+    sha256 "bba1831d15ae5212b22feab2f218bab6ed3cd0fc2dc1d4442443bb1ee52260e0"
   end
 
   resource "terminaltexteffects" do
@@ -245,6 +270,11 @@ class Oterm < Formula
     sha256 "d321b92cff673ec58027c04015fcaa8bb1e005478643ff4a500882eaab88c48a"
   end
 
+  resource "uvicorn" do
+    url "https://files.pythonhosted.org/packages/4b/4d/938bd85e5bf2edeec766267a5015ad969730bb91e31b44021dfe8b22df6c/uvicorn-0.34.0.tar.gz"
+    sha256 "404051050cd7e905de2c9a7e61790943440b3416f49cb409f965d9dcd0fa73e9"
+  end
+
   resource "yarl" do
     url "https://files.pythonhosted.org/packages/5e/4b/53db4ecad4d54535aff3dfda1f00d6363d79455f62b11b8ca97b82746bd2/yarl-1.18.0.tar.gz"
     sha256 "20d95535e7d833889982bfe7cc321b7f63bf8879788fee982c76ae2b24cfb715"
@@ -253,7 +283,7 @@ class Oterm < Formula
   def install
     virtualenv_create(libexec, "python3")
     virtualenv_install_with_resources
-    ohai "oterm installed successfully. Please consider supporting the author at https://github.com/sponsors/ggozad"
+    ohai "oterm is not installed! Please consider supporting the author at https://github.com/sponsors/ggozad"
   end
 
   test do
