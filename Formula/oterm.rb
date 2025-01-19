@@ -253,6 +253,7 @@ class Oterm < Formula
   def install
     virtualenv_create(libexec, "python3")
     virtualenv_install_with_resources
+    ohai "oterm installed successfully. Please consider supporting the author at https://github.com/sponsors/ggozad"
   end
 
   test do
