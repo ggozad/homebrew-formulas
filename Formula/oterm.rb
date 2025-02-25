@@ -3,8 +3,8 @@ class Oterm < Formula
 
   desc "Text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/60/4d/b46d014b8d0a48d2768942fad9662ddabd82e57cebc0e78f6101dbbbf361/oterm-0.9.0.tar.gz"
-  sha256 "e73342add28ba35f2e3737ee4952251257e08a5cf2b3932ed3b470b417fac045"
+  url "https://files.pythonhosted.org/packages/a7/1d/61d9d2ec4d0e5b7845a9a538742678f6dd67452a88903671ece1d7b376a6/oterm-0.9.1.tar.gz"
+  sha256 "2f12376f292dc733d6d5337bd634146fd5397e0ccdf5be07b93930033337359d"
 
   license "MIT"
 
@@ -144,11 +144,6 @@ class Oterm < Formula
   resource "Pygments" do
     url "https://files.pythonhosted.org/packages/7c/2d/c3338d48ea6cc0feb8446d8e6937e1408088a72a39937982cc6111d17f84/pygments-2.19.1.tar.gz"
     sha256 "61c16d2a8576dc0649d9f39e089b5f02bcd27fba10d8fb4dcc28173f7a45151f"
-  end
-
-  resource "pyperclip" do
-    url "https://files.pythonhosted.org/packages/30/23/2f0a3efc4d6a32f3b63cdff36cd398d9701d26cda58e3ab97ac79fb5e60d/pyperclip-1.9.0.tar.gz"
-    sha256 "b7de0142ddc81bfc5c7507eea19da920b92252b548b96186caf94a5e2527d310"
   end
 
   resource "python-dotenv" do
