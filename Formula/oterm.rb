@@ -3,8 +3,8 @@ class Oterm < Formula
 
   desc "Text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/01/d1/f2083cf4779752f2086b2ca39f4cb7df27640539625fc1c94eaebd4f84cb/oterm-0.9.3.tar.gz"
-  sha256 "bcd3dba6aefae877f00fc6c1a2b5efc8a7f8a3ccdfb6afd81ce00f889593ac06"
+  url "https://files.pythonhosted.org/packages/f3/51/4c8b2198cced786cad6d576bbb6099d89d2f1f2285b1fd8be753ecb7a7ea/oterm-0.9.4.tar.gz"
+  sha256 "5a287ddd62f2dd7d503fb4c66357dd5dfc6b3d2dc53bf8e36a7601aede8c55f4"
  
   license "MIT"
 
@@ -17,8 +17,8 @@ class Oterm < Formula
   depends_on "rust"
 
   resource "aiosql" do
-    url "https://files.pythonhosted.org/packages/b0/d2/6e427f414df90e2edae5494cebc5a3354c9a19572aa1dda586419570e5a6/aiosql-13.2.tar.gz"
-    sha256 "7cb22b7c7f7a5ca21b314d1f1ab88787e16667bfabf9e219266cec235cdadd24"
+    url "https://files.pythonhosted.org/packages/39/fb/00f145143303b33a7685b262aac9608de65e63f91dd0cf2d09933639d119/aiosql-13.3.tar.gz"
+    sha256 "22f587522426106a45683ce206cddd1357dfea65487c88ae9dbf8cb2dc138f10"
   end
 
   resource "aiosqlite" do
@@ -32,8 +32,8 @@ class Oterm < Formula
   end
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/a3/73/199a98fc2dae33535d6b8e8e6ec01f8c1d76c9adb096c6b7d64823038cde/anyio-4.8.0.tar.gz"
-    sha256 "1d9fe889df5212298c0c0723fa20479d1b94883a2df44bd3897aa91083316f7a"
+    url "https://files.pythonhosted.org/packages/95/7d/4c1bd541d4dffa1b52bd83fb8527089e097a106fc90b467a7313b105f840/anyio-4.9.0.tar.gz"
+    sha256 "673c0c244e15788651a4ff38710fea9675823028a6f08a5eda409e0c9840a028"
   end
 
   resource "certifi" do
@@ -72,8 +72,8 @@ class Oterm < Formula
   end
 
   resource "Jinja2" do
-    url "https://files.pythonhosted.org/packages/af/92/b3130cbbf5591acf9ade8708c365f3238046ac7cb8ccba6e81abccb0ccff/jinja2-3.1.5.tar.gz"
-    sha256 "8fefff8dc3034e27bb80d67c671eb8a9bc424c0ef4c0826edbff304cceff43bb"
+    url "https://files.pythonhosted.org/packages/df/bf/f7da0350254c0ed7c72f3e33cef02e048281fec7ecec5f032d4aac52226b/jinja2-3.1.6.tar.gz"
+    sha256 "0137fb05990d35f1275a587e9aee6d56da821fc83491a0fb838183be43f66d6d"
   end
 
   resource "linkify-it-py" do
@@ -92,8 +92,8 @@ class Oterm < Formula
   end
 
   resource "mcp" do
-    url "https://files.pythonhosted.org/packages/6b/b6/81e5f2490290351fc97bf46c24ff935128cb7d34d68e3987b522f26f7ada/mcp-1.3.0.tar.gz"
-    sha256 "f409ae4482ce9d53e7ac03f3f7808bcab735bdfc0fba937453782efb43882d45"
+    url "https://files.pythonhosted.org/packages/6d/c9/c55764824e893fdebe777ac7223200986a275c3191dba9169f8eb6d7c978/mcp-1.5.0.tar.gz"
+    sha256 "5b2766c05e68e01a2034875e250139839498c61792163a7b221fc170c12f5aa9"
   end
 
   resource "mdit-py-plugins" do
@@ -122,8 +122,8 @@ class Oterm < Formula
   end
 
   resource "platformdirs" do
-    url "https://files.pythonhosted.org/packages/13/fc/128cc9cb8f03208bdbf93d3aa862e16d376844a14f9a0ce5cf4507372de4/platformdirs-4.3.6.tar.gz"
-    sha256 "357fb2acbc885b0419afd3ce3ed34564c13c9b95c89360cd9563f73aa5e2b907"
+    url "https://files.pythonhosted.org/packages/b6/2d/7d512a3913d60623e7eb945c6d1b4f0bddf1d0b7ada5225274c87e5b53d1/platformdirs-4.3.7.tar.gz"
+    sha256 "eb437d586b6a0986388f0d6f74aa0cde27b48d0e3d66843640bfb6bdcdb6e351"
   end
 
   resource "pydantic" do
@@ -137,8 +137,8 @@ class Oterm < Formula
   end
 
   resource "pydantic-settings" do
-    url "https://files.pythonhosted.org/packages/73/7b/c58a586cd7d9ac66d2ee4ba60ca2d241fa837c02bca9bea80a9a8c3d22a9/pydantic_settings-2.7.1.tar.gz"
-    sha256 "10c9caad35e64bfb3c2fbf70a078c0e25cc92499782e5200747f942a065dec93"
+    url "https://files.pythonhosted.org/packages/88/82/c79424d7d8c29b994fb01d277da57b0a9b09cc03c3ff875f9bd8a86b2145/pydantic_settings-2.8.1.tar.gz"
+    sha256 "d5c663dfbe9db9d5e1c646b2e161da12f0d734d422ee56f567d0ea2cee4e8585"
   end
 
   resource "Pygments" do
@@ -177,18 +177,18 @@ class Oterm < Formula
   end
 
   resource "starlette" do
-    url "https://files.pythonhosted.org/packages/ff/fb/2984a686808b89a6781526129a4b51266f678b2d2b97ab2d325e56116df8/starlette-0.45.3.tar.gz"
-    sha256 "2cbcba2a75806f8a41c722141486f37c28e30a0921c5f6fe4346cb0dcee1302f"
+    url "https://files.pythonhosted.org/packages/04/1b/52b27f2e13ceedc79a908e29eac426a63465a1a01248e5f24aa36a62aeb3/starlette-0.46.1.tar.gz"
+    sha256 "3c88d58ee4bd1bb807c0d1acb381838afc7752f9ddaec81bbe4383611d833230"
   end
 
   resource "terminaltexteffects" do
-    url "https://files.pythonhosted.org/packages/10/d1/34a5a22265fe74b11ba21c733479d9c1572004b4c0b38b45deda4d3abdf3/terminaltexteffects-0.11.0.tar.gz"
-    sha256 "1430cb73ba003a04a96b19ae4ba5b37a3faf10eb92c77593da7b697e8113dcb2"
+    url "https://files.pythonhosted.org/packages/14/78/71c0ff84d2a7372ce029b22998fac27505771254bcdbccfa8fd3c786e7b0/terminaltexteffects-0.12.0.tar.gz"
+    sha256 "84bfa7eefc4d03ede3b9a9794d26a224df34851534f993df6a237fdb744542ef"
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/1f/b6/59b1de04bb4dca0f21ed7ba0b19309ed7f3f5de4396edf20cc2855e53085/textual-1.0.0.tar.gz"
-    sha256 "bec9fe63547c1c552569d1b75d309038b7d456c03f86dfa3706ddb099b151399"
+    url "https://files.pythonhosted.org/packages/41/62/4af4689dd971ed4fb3215467624016d53550bff1df9ca02e7625eec07f8b/textual-2.1.2.tar.gz"
+    sha256 "aae3f9fde00c7440be00e3c3ac189e02d014f5298afdc32132f93480f9e09146"
   end
 
   resource "textualeffects" do
@@ -197,8 +197,8 @@ class Oterm < Formula
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/cb/ce/dca7b219718afd37a0068f4f2530a727c2b74a8b6e8e0c0080a4c0de4fcd/typer-0.15.1.tar.gz"
-    sha256 "a0588c0a7fa68a1978a069818657778f86abe6ff5ea6abf472f940a08bfe4f0a"
+    url "https://files.pythonhosted.org/packages/8b/6f/3991f0f1c7fcb2df31aef28e0594d8d54b05393a0e4e34c65e475c2a5d41/typer-0.15.2.tar.gz"
+    sha256 "ab2fab47533a813c49fe1f16b1a370fd5819099c00b119e0633df65f22144ba5"
   end
 
   resource "typing-extensions" do
