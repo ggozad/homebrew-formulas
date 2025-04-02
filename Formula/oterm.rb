@@ -3,8 +3,8 @@ class Oterm < Formula
 
   desc "Text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/68/90/bba5434538d82d702f44a36ffbd8a9060726c8827cfb4ae7303b383d3e72/oterm-0.9.5.tar.gz"
-  sha256 "59db8ec04d6853575e974913a7c0902e2d6397398b9a465bb517670fbbcafddc"
+  url "https://files.pythonhosted.org/packages/b8/f6/15e8374811fa89861cbc6292470e63c5a3d4b65fa4a93c941754a4840eab/oterm-0.10.0.tar.gz"
+  sha256 "d0660976daaa42405f791e6588a97584a80ca60fc923cc0d8cc72ab9b9e4edab"
   license "MIT"
 
   depends_on "jpeg-turbo"
@@ -146,18 +146,13 @@ class Oterm < Formula
   end
 
   resource "python-dotenv" do
-    url "https://files.pythonhosted.org/packages/bc/57/e84d88dfe0aec03b7a2d4327012c1627ab5f03652216c63d49846d7a6c58/python-dotenv-1.0.1.tar.gz"
-    sha256 "e324ee90a023d808f1959c46bcbc04446a10ced277783dc6ee09987c37ec10ca"
+    url "https://files.pythonhosted.org/packages/88/2c/7bb1416c5620485aa793f2de31d3df393d3686aa8a8506d11e10e13c5baf/python_dotenv-1.1.0.tar.gz"
+    sha256 "41f90bc6f5f177fb41f53e87666db362025010eb28f60a01c9143bfa33a2b2d5"
   end
 
   resource "rich" do
     url "https://files.pythonhosted.org/packages/ab/3a/0316b28d0761c6734d6bc14e770d85506c986c85ffb239e688eeaab2c2bc/rich-13.9.4.tar.gz"
     sha256 "439594978a49a09530cff7ebc4b5c7103ef57baf48d5ea3184f21d9a2befa098"
-  end
-
-  resource "rich-pixels" do
-    url "https://files.pythonhosted.org/packages/31/71/6d5cd4b8d67cd49366eda19aaf37f20094ce562223a91166109202590237/rich_pixels-3.0.1.tar.gz"
-    sha256 "4a81977d45437ce5009cdcaf70af80256c3bdfab870e87ab802c577ba4133235"
   end
 
   resource "shellingham" do
@@ -188,6 +183,11 @@ class Oterm < Formula
   resource "textual" do
     url "https://files.pythonhosted.org/packages/41/62/4af4689dd971ed4fb3215467624016d53550bff1df9ca02e7625eec07f8b/textual-2.1.2.tar.gz"
     sha256 "aae3f9fde00c7440be00e3c3ac189e02d014f5298afdc32132f93480f9e09146"
+  end
+
+  resource "textual-image" do
+    url "https://files.pythonhosted.org/packages/62/81/ca6f886d489c94ed5cf9f4c4b178828e3d30fb12276338e641691fad9eb8/textual_image-0.7.0.tar.gz"
+    sha256 "5cd4a0808c3455afeb836a62443bc292723576a96346ef7a06666f1b2b8752e0"
   end
 
   resource "textualeffects" do
