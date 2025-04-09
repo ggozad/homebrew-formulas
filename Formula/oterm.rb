@@ -3,8 +3,8 @@ class Oterm < Formula
 
   desc "Text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/b8/f6/15e8374811fa89861cbc6292470e63c5a3d4b65fa4a93c941754a4840eab/oterm-0.10.0.tar.gz"
-  sha256 "d0660976daaa42405f791e6588a97584a80ca60fc923cc0d8cc72ab9b9e4edab"
+  url "https://files.pythonhosted.org/packages/cc/8d/97b6564b2352c22d874d463af1b5a763b5780e8bf8f770cd71a2f3f54acf/oterm-0.10.1.tar.gz"
+  sha256 "e17dde7967e3e8932cf970951905ae2326c099edf86b8acde8841f45df088671"
   license "MIT"
 
   depends_on "jpeg-turbo"
@@ -91,8 +91,8 @@ class Oterm < Formula
   end
 
   resource "mcp" do
-    url "https://files.pythonhosted.org/packages/6d/c9/c55764824e893fdebe777ac7223200986a275c3191dba9169f8eb6d7c978/mcp-1.5.0.tar.gz"
-    sha256 "5b2766c05e68e01a2034875e250139839498c61792163a7b221fc170c12f5aa9"
+    url "https://files.pythonhosted.org/packages/95/d2/f587cb965a56e992634bebc8611c5b579af912b74e04eb9164bd49527d21/mcp-1.6.0.tar.gz"
+    sha256 "d9324876de2c5637369f43161cd71eebfd803df5a95e46225cab8d280e366723"
   end
 
   resource "mdit-py-plugins" do
