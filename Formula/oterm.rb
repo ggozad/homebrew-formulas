@@ -3,8 +3,8 @@ class Oterm < Formula
 
   desc "Text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/cc/8d/97b6564b2352c22d874d463af1b5a763b5780e8bf8f770cd71a2f3f54acf/oterm-0.10.1.tar.gz"
-  sha256 "e17dde7967e3e8932cf970951905ae2326c099edf86b8acde8841f45df088671"
+  url "https://files.pythonhosted.org/packages/4a/34/b98bbd0bd39697c227a3cc82077e33c84e69c1fa70e268ee61f261b3ff5c/oterm-0.10.2.tar.gz"
+  sha256 "9172c605a619256f248bf5619e7ae42e3197a9ffef42a96f72e93ebb2e83fa2a"
   license "MIT"
 
   depends_on "jpeg-turbo"
@@ -16,8 +16,8 @@ class Oterm < Formula
   depends_on "rust"
 
   resource "aiosql" do
-    url "https://files.pythonhosted.org/packages/39/fb/00f145143303b33a7685b262aac9608de65e63f91dd0cf2d09933639d119/aiosql-13.3.tar.gz"
-    sha256 "22f587522426106a45683ce206cddd1357dfea65487c88ae9dbf8cb2dc138f10"
+    url "https://files.pythonhosted.org/packages/98/3a/105cdf480d444ee059f3fbea65616fba006fba29d32e382fb1a4d947f4b7/aiosql-13.4.tar.gz"
+    sha256 "da6ebb4d5e735753853007a7d574e60761338fc6ca8d95d6d95b5d85d7b1354d"
   end
 
   resource "aiosqlite" do
@@ -51,8 +51,8 @@ class Oterm < Formula
   end
 
   resource "httpcore" do
-    url "https://files.pythonhosted.org/packages/6a/41/d7d0a89eb493922c37d343b607bc1b5da7f5be7e383740b4753ad8943e90/httpcore-1.0.7.tar.gz"
-    sha256 "8551cb62a169ec7162ac7be8d4817d561f60e08eaa485234898414bb5a8a0b4c"
+    url "https://files.pythonhosted.org/packages/9f/45/ad3e1b4d448f22c0cff4f5692f5ed0666658578e358b8d58a19846048059/httpcore-1.0.8.tar.gz"
+    sha256 "86e94505ed24ea06514883fd44d2bc02d90e77e7979c8eb71b90f41d364a1bad"
   end
 
   resource "httpx" do
@@ -116,8 +116,8 @@ class Oterm < Formula
   end
 
   resource "pillow" do
-    url "https://files.pythonhosted.org/packages/f3/af/c097e544e7bd278333db77933e535098c259609c4eb3b85381109602fb5b/pillow-11.1.0.tar.gz"
-    sha256 "368da70808b36d73b4b390a8ffac11069f8a5c85f29eff1f1b01bcf3ef5b2a20"
+    url "https://files.pythonhosted.org/packages/af/cb/bb5c01fcd2a69335b86c22142b2bccfc3464087efb7fd382eee5ffc7fdf7/pillow-11.2.1.tar.gz"
+    sha256 "a64dd61998416367b7ef979b73d3a85853ba9bec4c2925f74e588879a58716b6"
   end
 
   resource "platformdirs" do
@@ -126,13 +126,13 @@ class Oterm < Formula
   end
 
   resource "pydantic" do
-    url "https://files.pythonhosted.org/packages/b7/ae/d5220c5c52b158b1de7ca89fc5edb72f304a70a4c540c84c8844bf4008de/pydantic-2.10.6.tar.gz"
-    sha256 "ca5daa827cce33de7a42be142548b0096bf05a7e7b365aebfa5f8eeec7128236"
+    url "https://files.pythonhosted.org/packages/10/2e/ca897f093ee6c5f3b0bee123ee4465c50e75431c3d5b6a3b44a47134e891/pydantic-2.11.3.tar.gz"
+    sha256 "7471657138c16adad9322fe3070c0116dd6c3ad8d649300e3cbdfe91f4db4ec3"
   end
 
   resource "pydantic-core" do
-    url "https://files.pythonhosted.org/packages/fc/01/f3e5ac5e7c25833db5eb555f7b7ab24cd6f8c322d3a3ad2d67a952dc0abc/pydantic_core-2.27.2.tar.gz"
-    sha256 "eb026e5a4c1fee05726072337ff51d1efb6f59090b7da90d30ea58625b1ffb39"
+    url "https://files.pythonhosted.org/packages/17/19/ed6a078a5287aea7922de6841ef4c06157931622c89c2a47940837b5eecd/pydantic_core-2.33.1.tar.gz"
+    sha256 "bcc9c6fdb0ced789245b02b7d6603e17d1563064ddcfc36f046b61c0c05dd9df"
   end
 
   resource "pydantic-settings" do
@@ -151,8 +151,8 @@ class Oterm < Formula
   end
 
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/ab/3a/0316b28d0761c6734d6bc14e770d85506c986c85ffb239e688eeaab2c2bc/rich-13.9.4.tar.gz"
-    sha256 "439594978a49a09530cff7ebc4b5c7103ef57baf48d5ea3184f21d9a2befa098"
+    url "https://files.pythonhosted.org/packages/a1/53/830aa4c3066a8ab0ae9a9955976fb770fe9c6102117c8ec4ab3ea62d89e8/rich-14.0.0.tar.gz"
+    sha256 "82f1bc23a6a21ebca4ae0c45af9bdbc492ed20231dcb63f297d6d1021a9d5725"
   end
 
   resource "shellingham" do
@@ -181,18 +181,18 @@ class Oterm < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/41/62/4af4689dd971ed4fb3215467624016d53550bff1df9ca02e7625eec07f8b/textual-2.1.2.tar.gz"
-    sha256 "aae3f9fde00c7440be00e3c3ac189e02d014f5298afdc32132f93480f9e09146"
+    url "https://files.pythonhosted.org/packages/dc/1f/df371f1455524a3d0079871e49e3850c82767904e9f4e2bdea6d30a866a7/textual-3.1.0.tar.gz"
+    sha256 "6bcab6581e9753d2a2043caf49f43c5818feb35f8049ed185bd38982bfb310ca"
   end
 
   resource "textual-image" do
-    url "https://files.pythonhosted.org/packages/62/81/ca6f886d489c94ed5cf9f4c4b178828e3d30fb12276338e641691fad9eb8/textual_image-0.7.0.tar.gz"
-    sha256 "5cd4a0808c3455afeb836a62443bc292723576a96346ef7a06666f1b2b8752e0"
+    url "https://files.pythonhosted.org/packages/40/e1/ad90ae431c615dd1ec5cdbf21ae573f8af68283619cf6c0f404e684d61ab/textual_image-0.8.2.tar.gz"
+    sha256 "484fe6ab4a19cf243ea397dd34255092783231f3fbce91f50800faa5852254a0"
   end
 
   resource "textualeffects" do
-    url "https://files.pythonhosted.org/packages/4b/a5/d0d329676ef7bdcb9ebed6aa97055809655c4f15712239950615d1a77c64/textualeffects-0.1.3.tar.gz"
-    sha256 "b3a2ebb0226efee6c321742ac50958d8755bcc373df85b5413da014ae954b26f"
+    url "https://files.pythonhosted.org/packages/64/0e/8307b9349f79d42666e46e936d31d0224e47c8e9dac572c2585e0fa517eb/textualeffects-0.1.4.tar.gz"
+    sha256 "86709321d49cd7abf47ed513782130174e6f5d85ea16996a7c38709c3646c463"
   end
 
   resource "typer" do
@@ -201,8 +201,13 @@ class Oterm < Formula
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/df/db/f35a00659bc03fec321ba8bce9420de607a1d37f8342eee1863174c69557/typing_extensions-4.12.2.tar.gz"
-    sha256 "1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8"
+    url "https://files.pythonhosted.org/packages/f6/37/23083fcd6e35492953e8d2aaaa68b860eb422b34627b13f2ce3eb6106061/typing_extensions-4.13.2.tar.gz"
+    sha256 "e6c81219bd689f51865d9e372991c540bda33a0379d5573cddb9a3a23f7caaef"
+  end
+
+  resource "typing-inspection" do
+    url "https://files.pythonhosted.org/packages/82/5c/e6082df02e215b846b4b8c0b887a64d7d08ffaba30605502639d44c06b82/typing_inspection-0.4.0.tar.gz"
+    sha256 "9765c87de36671694a67904bf2c96e395be9c6439bb6c87b5142569dcdd65122"
   end
 
   resource "uc-micro-py" do
