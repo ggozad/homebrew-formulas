@@ -3,8 +3,8 @@ class Oterm < Formula
 
   desc "Text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/b5/28/9c27fdaa5bc2114a424da0c4c6bda1b5227f2b6e6615ab34d75dffa584a3/oterm-0.11.1.tar.gz"
-  sha256 "226b290372919d62b9477a32239b1325fbb792a818e4b9279604f5d886cbfa00"
+  url "https://files.pythonhosted.org/packages/67/b8/016846e80985a370a8d3295aebd9583415a0ea5b501d49ccb6785891d781/oterm-0.11.2.tar.gz"
+  sha256 "d1b5439e52a254dc60840e4873ec366ea7263285b26bae55c1a0e37f3a3f7142"
   license "MIT"
 
   depends_on "jpeg-turbo"
@@ -43,6 +43,16 @@ class Oterm < Formula
   resource "click" do
     url "https://files.pythonhosted.org/packages/b9/2e/0090cbf739cee7d23781ad4b89a9894a41538e4fcf4c31dcdd705b78eb8b/click-8.1.8.tar.gz"
     sha256 "ed53c9d8990d83c2a27deae68e4ee337473f6330c040a31d4225c9574d16096a"
+  end
+
+  resource "exceptiongroup" do
+    url "https://files.pythonhosted.org/packages/09/35/2495c4ac46b980e4ca1f6ad6db102322ef3ad2410b79fdde159a4b0f3b92/exceptiongroup-1.2.2.tar.gz"
+    sha256 "47c2edf7c6738fafb49fd34290706d1a1a2f4d1c6df275526b62cbb4aa5393cc"
+  end
+
+  resource "fastmcp" do
+    url "https://files.pythonhosted.org/packages/a5/bb/5da870f11f5cfa6f2c573022e7ee0de9d9f4eef787ce95af3181b60d5f86/fastmcp-2.2.1.tar.gz"
+    sha256 "9c3e977349a324de011c3fcab7eec15de094e8189aef2745297cc5ca687632c2"
   end
 
   resource "h11" do
@@ -108,6 +118,11 @@ class Oterm < Formula
   resource "ollama" do
     url "https://files.pythonhosted.org/packages/b0/6d/dc77539c735bbed5d0c873fb029fb86aa9f0163df169b34152914331c369/ollama-0.4.7.tar.gz"
     sha256 "891dcbe54f55397d82d289c459de0ea897e103b86a3f1fad0fdb1895922a75ff"
+  end
+
+  resource "openapi-pydantic" do
+    url "https://files.pythonhosted.org/packages/02/2e/58d83848dd1a79cb92ed8e63f6ba901ca282c5f09d04af9423ec26c56fd7/openapi_pydantic-0.5.1.tar.gz"
+    sha256 "ff6835af6bde7a459fb93eb93bb92b8749b754fc6e51b2f1590a19dc3005ee0d"
   end
 
   resource "packaging" do
@@ -218,6 +233,11 @@ class Oterm < Formula
   resource "uvicorn" do
     url "https://files.pythonhosted.org/packages/4b/4d/938bd85e5bf2edeec766267a5015ad969730bb91e31b44021dfe8b22df6c/uvicorn-0.34.0.tar.gz"
     sha256 "404051050cd7e905de2c9a7e61790943440b3416f49cb409f965d9dcd0fa73e9"
+  end
+
+  resource "websockets" do
+    url "https://files.pythonhosted.org/packages/21/e6/26d09fab466b7ca9c7737474c52be4f76a40301b08362eb2dbc19dcc16c1/websockets-15.0.1.tar.gz"
+    sha256 "82544de02076bafba038ce055ee6412d68da13ab47f0c60cab827346de828dee"
   end
 
   def install
