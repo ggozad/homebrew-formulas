@@ -3,8 +3,8 @@ class Oterm < Formula
 
   desc "Text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/67/b8/016846e80985a370a8d3295aebd9583415a0ea5b501d49ccb6785891d781/oterm-0.11.2.tar.gz"
-  sha256 "d1b5439e52a254dc60840e4873ec366ea7263285b26bae55c1a0e37f3a3f7142"
+  url "https://files.pythonhosted.org/packages/c5/b9/4050275e7899aa61a208f59e7cb01aaeed563aa03b0bcd09942795aa01a3/oterm-0.12.0.tar.gz"
+  sha256 "6057c03faae740053adc5793010cd298dfab4298305dbb5d071647eda026b05b"
   license "MIT"
 
   depends_on "jpeg-turbo"
@@ -80,11 +80,6 @@ class Oterm < Formula
     sha256 "12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9"
   end
 
-  resource "Jinja2" do
-    url "https://files.pythonhosted.org/packages/df/bf/f7da0350254c0ed7c72f3e33cef02e048281fec7ecec5f032d4aac52226b/jinja2-3.1.6.tar.gz"
-    sha256 "0137fb05990d35f1275a587e9aee6d56da821fc83491a0fb838183be43f66d6d"
-  end
-
   resource "linkify-it-py" do
     url "https://files.pythonhosted.org/packages/2a/ae/bb56c6828e4797ba5a4821eec7c43b8bf40f69cda4d4f5f8c8a2810ec96a/linkify-it-py-2.0.3.tar.gz"
     sha256 "68cda27e162e9215c17d786649d1da0021a451bdc436ef9e0fa0ba5234b9b048"
@@ -95,14 +90,9 @@ class Oterm < Formula
     sha256 "e3f60a94fa066dc52ec76661e37c851cb232d92f9886b15cb560aaada2df8feb"
   end
 
-  resource "MarkupSafe" do
-    url "https://files.pythonhosted.org/packages/b2/97/5d42485e71dfc078108a86d6de8fa46db44a1a9295e89c5d6d4a06e23a62/markupsafe-3.0.2.tar.gz"
-    sha256 "ee55d3edf80167e48ea11a923c7386f4669df67d7994554387f84e7d8b0a2bf0"
-  end
-
   resource "mcp" do
-    url "https://files.pythonhosted.org/packages/95/d2/f587cb965a56e992634bebc8611c5b579af912b74e04eb9164bd49527d21/mcp-1.6.0.tar.gz"
-    sha256 "d9324876de2c5637369f43161cd71eebfd803df5a95e46225cab8d280e366723"
+    url "https://files.pythonhosted.org/packages/25/ae/588691c45b38f4fbac07fa3d6d50cea44cc6b35d16ddfdf26e17a0467ab2/mcp-1.7.1.tar.gz"
+    sha256 "eb4f1f53bd717f75dda8a1416e00804b831a8f3c331e23447a03b78f04b43a6e"
   end
 
   resource "mdit-py-plugins" do
@@ -163,6 +153,11 @@ class Oterm < Formula
   resource "python-dotenv" do
     url "https://files.pythonhosted.org/packages/88/2c/7bb1416c5620485aa793f2de31d3df393d3686aa8a8506d11e10e13c5baf/python_dotenv-1.1.0.tar.gz"
     sha256 "41f90bc6f5f177fb41f53e87666db362025010eb28f60a01c9143bfa33a2b2d5"
+  end
+
+  resource "python-multipart" do
+    url "https://files.pythonhosted.org/packages/f3/87/f44d7c9f274c7ee665a29b885ec97089ec5dc034c7f3fafa03da9e39a09e/python_multipart-0.0.20.tar.gz"
+    sha256 "8dd0cab45b8e23064ae09147625994d090fa46f5b0d1e13af944c331a7fa9d13"
   end
 
   resource "rich" do
