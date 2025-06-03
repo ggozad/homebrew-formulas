@@ -3,8 +3,8 @@ class Oterm < Formula
 
   desc "Text-based terminal client for Ollama"
   homepage "https://github.com/ggozad/oterm"
-  url "https://files.pythonhosted.org/packages/67/c0/8c82c34d930d96dfdadb3be3fb34303b126ad897a33fc9f819a7584ba9cb/oterm-0.13.0.tar.gz"
-  sha256 "29094fd23ff127b3a584b7820207c88d7a6bcf9a02c4c09ab65f15105af322fb"
+  url "https://files.pythonhosted.org/packages/44/44/7abc0b2149584545cea96c6d8fd9b14f800c7d1bd7ca9a9c45439084402c/oterm-0.13.1.tar.gz"
+  sha256 "ef01161329198d116d291b6c01ec60457f4e4465e185b8dad94c3c3de03f6b09"
   license "MIT"
 
   depends_on "jpeg-turbo"
@@ -51,8 +51,8 @@ class Oterm < Formula
   end
 
   resource "fastmcp" do
-    url "https://files.pythonhosted.org/packages/5d/cc/37ff3a96338234a697df31d2c70b50a1d0f5e20f045d9b7cbba052be36af/fastmcp-2.5.1.tar.gz"
-    sha256 "0d10ec65a362ae4f78bdf3b639faf35b36cc0a1c8f5461a54fac906fe821b84d"
+    url "https://files.pythonhosted.org/packages/20/cc/d2c0e63d2b34681bef4e077611dae662ea722add13a83dc4ae08b6e0fd23/fastmcp-2.5.2.tar.gz"
+    sha256 "761c92fb54f561136f631d7d98b4920152978f6f0a66a4cef689a7983fd05c8b"
   end
 
   resource "h11" do
